@@ -1,0 +1,22 @@
+.my-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .title-img {
+    margin-top: 2em;
+    max-height: 90%;
+    max-width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .title-description {
+    padding: 1em;
+    margin-top: 1em;
+    font-size: 2em;
+    text-align: center;
+    font-family: "Josefin Sans";
+    color: rgb(170, 185, 187)
+  }
+}

@@ -1,0 +1,25 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Josefin Sans";
+  margin-top: 2em;
+  padding: 1.5em;
+  padding-bottom: 4em;
+  padding-top: 4em;
+  background-image: url("/assets/images/lights.png");
+  background-size: contain;
+  color: #D3E7EA;
+  input {
+    max-width: 40em;
+  }
+  textarea {
+    max-width: 60em;
+  }
+  button {
+    width: 5em;
+    margin-top: .5em
+  }
+}
+.my-well {
+  color: #C4CBCC;
+}
