@@ -1,15 +1,12 @@
 body {
   padding-top: 20px;
-  background-color: pink;
+  background-repeat: no-repeat;
+
 }
 
 .my-container {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.my-body {
-  margin-top: 50%;
-
+  font-family: "Open Sans"
 }

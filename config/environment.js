@@ -2,6 +2,14 @@
 
 module.exports = function(environment) {
   var ENV = {
+
+    googleFonts: [
+     'Open+Sans:300,400,700',
+     'Indie+Flower:300,400,700',
+     'Inconsolata:300,400,700',
+     'Josefin+Sans:300,400,700'
+   ],
+
     modulePrefix: 'cocoon',
     environment: environment,
     rootURL: '/',
