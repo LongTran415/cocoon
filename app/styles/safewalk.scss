@@ -1,0 +1,20 @@
+.safewalk-container {
+  display: flex;
+  flex-direction: row;
+  font-family: "Josefin Sans";
+
+  .safewalk-left {
+    padding: 2em;
+    flex: 1;
+    .tech-stack {
+      margin-top: 2em;
+    }
+  }
+  .safewalk-right {
+    flex: 2;
+    img {
+      max-width: 120%
+    }
+  }
+
+}
