@@ -1,0 +1,52 @@
+$mbp-scale: 2.0;
+$video-scale: .75;
+$mbp-width: 38.62em * $mbp-scale;
+$mbp-height: 22.76em * $mbp-scale;
+
+.folio-container {
+  display: flex;
+  flex-direction: row;
+  font-family: "Josefin Sans";
+  background: url('/assets/images/colors.jpeg');
+  background-size: cover;
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+
+  .folio-left {
+    padding: 2em;
+    flex: 1;
+    p {
+      font-size: 1.5em;
+    }
+    .tech-stack {
+      margin-top: 2em;
+    }
+  }
+  .folio-right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .folio-video {
+    display: flex;
+    justify-content: center;
+    width: $mbp-width;
+    height: $mbp-height;
+    background: url('/assets/images/macbookpro.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    video {
+      width: $mbp-width * $video-scale;
+      height: $mbp-height * $video-scale;
+      transform: scaleY(1.15) translate3d(0,4em,0);
+      background-repeat: no-repeat;
+    }
+  }
+
+
+}

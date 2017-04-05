@@ -1,0 +1,35 @@
+.kinect-container {
+  display: flex;
+  flex-direction: row;
+  font-family: "Josefin Sans";
+  background: url('/assets/images/games.jpeg');
+  background-size: cover;
+  background-position: left;
+  margin-bottom: 8em;
+  margin-top: 3em;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  color: white;
+
+
+
+  .kinect-left {
+    padding: 2em;
+    flex: 1;
+    p {
+      font-size: 1.5em;
+    }
+    .tech-stack {
+      margin-top: 2em;
+    }
+  }
+  .kinect-right {
+    flex: 2;
+    img {
+      margin-right: 3em;
+      padding: 1em;
+      max-width: 100%
+    }
+  }
+
+}
